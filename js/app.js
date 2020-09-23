@@ -22,7 +22,7 @@ $(function() {
     }
   
   $('#buscar').click(function() {
-    currentPokemonId = document.getElementById("namePk").value;
+    currentPokemonId = document.getElementById("namePk").value.toLowerCase();
     getPokemon();
   });
   
